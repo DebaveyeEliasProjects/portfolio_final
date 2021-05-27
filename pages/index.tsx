@@ -1,9 +1,13 @@
+import Frameworks from "../components/generic/Frameworks";
+import Header from "../components/generic/Header";
 import Navigation from "../components/navigation/Navigation";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Navigation />
+      <Header />
+      <Frameworks />
     </div>
   );
 }
