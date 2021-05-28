@@ -4,8 +4,8 @@ import PageBuilder from "./PageBuilder";
 
 const Header = () => {
   return (
-    <div className="h-110 w-screen overflow-hidden relative ">
-      <div className="bg-purple-600 w-110 h-110 lg:w-120 lg:h-120 -bottom-64 sm:-bottom-80 rounded-full absolute -right-96 sm:-right-80 "></div>
+    <div className="h-110 w-full overflow-hidden relative ">
+      <div className="bg-purple-600 w-110 h-110 lg:w-120 lg:h-120 -bottom-80 sm:-bottom-80 rounded-full absolute -right-96 sm:-right-80 "></div>
 
       <div className="sticky z-20 ">
         <PageBuilder>
